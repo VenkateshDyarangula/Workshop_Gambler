@@ -15,7 +15,7 @@ namespace Gambler
             int bet = uc11.win_Loose();
             if (bet == 0)
             {
-               // Console.WriteLine("Loose the game");
+               Console.WriteLine("Loose the game");
                 stack = stack - 50;
                 if (stack == 50)
                 {
