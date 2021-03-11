@@ -25,13 +25,13 @@ namespace Gambler
             Console.WriteLine(bet);
             if (bet == 0)
             {
-                //int day = var.every_Day;
+                int day = var.every_Day;
                 Console.WriteLine("Loose the game");
                 day -= 1;
             }
             else if (bet == 1)
             {
-                //int day = var.every_Day;
+                int day = var.every_Day;
                 Console.WriteLine("Won the Game");
                 day += 1;
             }

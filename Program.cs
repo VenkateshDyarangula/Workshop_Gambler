@@ -17,7 +17,7 @@ namespace Gambler
                     if (bet == 0)
                     {
                        // Console.WriteLine("Loose the game");
-                        //stack = stack - 50;
+                        stack = stack - 50;
                         stack = i + stack;
                         if (stack == 50)
                         {
